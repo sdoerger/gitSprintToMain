@@ -3,7 +3,7 @@ set -e
 clear
 
 branchPrefix="sprint"
-branchMain="master"
+branchMain="main"
 branchDevelop="develop"
 scriptServer="placeholder"
 scriptCommand="placeholder"

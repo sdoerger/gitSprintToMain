@@ -17,7 +17,7 @@ The variables are self explaining:
 
 ```bash
 branchPrefix="sprint"
-branchMain="master"
+branchMain="main"
 branchDevelop="develop"
 scriptServer="placeholder"
 scriptCommand="placeholder"
