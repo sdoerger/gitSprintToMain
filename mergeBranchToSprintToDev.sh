@@ -13,7 +13,7 @@ branchSprint=$(git branch --list ""${branchPrefix}"*")
 tagVersion=""
 
 checkMergeConflicts() {
-  # Check if three are conflicts
+  # Check if there are conflicts and abort if
   CONFLICTS=$(git ls-files -u | wc -l)
   if [ "$CONFLICTS" -gt 0 ] ; then
     echo "There is a merge conflict. Aborting"
